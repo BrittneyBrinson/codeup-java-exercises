@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class HelloWorld {
     public static void main (String[] args){
 //        System.out.print("Hello, World!");
@@ -19,8 +20,23 @@ public class HelloWorld {
 //        Object o = theNumberThree;
 //        int three = (int) o;
 //        System.out.println(three);
-        int x = 4 + 5;
-        int y = 3 * 4;
+
+//        int x = 4 + 5;
+//        int y = 3 * 4;
+
+//        double pi = 3.14159;
+//        System.out.format("The value of pi is approximately %.2f", pi);
+
+        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Enter a integer: ");
+//        int userInput = scanner.nextInt();
+//
+//
+        System.out.println("Enter a sentence");
+        String userInput = scanner.nextLine();
+        System.out.print(userInput);
+
+
 
 
     }
