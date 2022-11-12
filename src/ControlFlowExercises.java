@@ -1,3 +1,4 @@
+import javax.lang.model.SourceVersion;
 import java.util.Scanner;
 public class ControlFlowExercises {
     public static void main(String[] args) {
@@ -30,8 +31,29 @@ public class ControlFlowExercises {
 //                    else System.out.println(i);
 //            }
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a integer");
-        String userInput = scanner.nextLine();
 
+        System.out.println("Enter a integer");
+
+        int userInput = Integer.parseInt(scanner.nextLine());
+
+        System.out.println("Here is your table!");
+
+        System.out.println(" ");
+
+        System.out.println("number | squared | cubed");
+
+        System.out.println("------ | ------- | -----");
+
+        for (int i = 0; i <= userInput; i++) {
+                if (i == i) {
+                    System.out.println(i + " | " + i * i + " | " + Math.pow(i, 3));
+//                    System.out.println("Do you want to continue? Type yes");
+//                    String goAhead = scanner.nextLine();
+//                       if(goAhead == "yes"){
+//                           System.out.println();
+//                      HOW TO THROUGH IN CONTINUE STATEMENT
+//                       }
+                }
+        }
     }
 }
