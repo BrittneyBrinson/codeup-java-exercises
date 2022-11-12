@@ -47,13 +47,24 @@ public class ControlFlowExercises {
         for (int i = 0; i <= userInput; i++) {
                 if (i == i) {
                     System.out.println(i + " | " + i * i + " | " + Math.pow(i, 3));
-//                    System.out.println("Do you want to continue? Type yes");
-//                    String goAhead = scanner.nextLine();
-//                       if(goAhead == "yes"){
-//                           System.out.println();
-//                      HOW TO THROUGH IN CONTINUE STATEMENT
-//                       }
                 }
+            }
+        System.out.println("If you want to continue, type yes. Otherwise, type no.");
+
+        String stopStart = scanner.nextLine();
+                if(stopStart.equals( "yes")){
+                    System.out.println("Enter another integer");
+                    int userInput2 = Integer.parseInt(scanner.nextLine());
+
+                    for (int i = 0; i <= userInput2; i++) {
+                        if (i == i) {
+                            System.out.println(i + " | " + i * i + " | " + Math.pow(i, 3));
+                        }
+                    }
+                }
+
+
+
+
         }
     }
-}
