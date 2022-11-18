@@ -3,19 +3,21 @@ import java.util.Scanner;
 
 public class Input{
 
-    private Scanner scannerOne;
+    private Scanner scanner;
 
     public Input(){
-        scannerOne = new Scanner(System.in);
-    }
+        scanner = new Scanner(System.in);
 
+    }
     public String getString(){
-        return scannerOne.toString();
+        return scanner.toString();
     }
 
-//    public boolean yesNo(){
-//        return
-//    }
+    public int getInt(String scanner){
+        return Integer.parseInt(scanner);
+    }
+
+
 
 
 
