@@ -6,34 +6,19 @@ public class Input{
     public Input(Scanner scanner){         //Input constructor
         this.scanner = new Scanner(System.in);
     }
+        String getString(Scanner Obj){
+        return this.scanner.toString();
+    }
 
-//    public String getString(Scanner scanner){
-////        return
-//    }
-
-
-
-
-
-
+    boolean yesNo(String userInput) {
+        userInput.equals("yes");
+        return true;
+    }
 
 
 
 
 
-//    private Scanner scanner;
-//
-//    public Input(){
-//        scanner = new Scanner(System.in);
-//
-//    }
-//    public String getString(){
-//        return scanner.toString();
-//    }
-//
-//    public int getInt(String scanner){
-//        return Integer.parseInt(scanner);
-//    }
 
 
 

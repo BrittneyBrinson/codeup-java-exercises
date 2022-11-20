@@ -3,16 +3,19 @@ package shapes;
 public class Circle {
     private double radius;
 
-    public Circle(double radius){
-        this.radius = radius * 2;
+    public Circle(double radius){  // Setter/ Constructor
+        this.radius = radius;
     }
 
     public double getArea(double radius){
-        this.radius = radius * 3.14;
+        this.radius = Math.PI * (Math.pow(radius, 2));
         return this.radius;
     }
 
-//    public double getCircumference(){
-//
-//    }
+    public double getCircumference(double radius){
+        this.radius = 2 * Math.PI * radius;
+        return this.radius;
+    }
+
+
 }
