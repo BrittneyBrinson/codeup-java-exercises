@@ -17,19 +17,16 @@ public class Input{
        return newOutput;
     }
 
-    int getInt(int min, int max){
-        System.out.println("Enter a number between 50 - 100");
+    int getInt(int min, int max) {
+        System.out.println("Please enter a integer between 50 - 100");
+        int userInput = Integer.parseInt(sc.nextLine());
         min = 50;
         max = 100;
-        int grabInput = Integer.parseInt(sc.nextLine());
-
-        if(grabInput > 100 && grabInput < 50){
-            throw new IllegalArgumentException("Please enter a number that is BETWEEN 50-100");
-        }
-
-        return grabInput;
-
-        }
+         while(userInput > 100 & userInput < 50){
+             System.out.println("Incorrect. Please try again. Enter a number between 50 - 100");
+         }
+          return userInput;
+    }
 
 
 
