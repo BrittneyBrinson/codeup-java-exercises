@@ -28,22 +28,6 @@ public class Input{
           return userInput;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 

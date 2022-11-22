@@ -1,11 +1,15 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ArraysExercises {
 
-    public Person[] peopleArray = new Person[4];
+    public Person[] peopleArray;
 
-//    public addPerson(Person[] peopleArray){
-//        return  peopleArray[5] = new Person;
+//    public static int addPerson(Person[] peopleArray){
+//        return ;
+//    }
+
+
 
 
     public static void main(String[] arguments){
