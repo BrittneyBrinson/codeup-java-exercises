@@ -47,7 +47,7 @@ public class GradesApplication {
                 System.out.println("Grades: " + studentA.getGrades());
                 System.out.println("Grade-point Average: " + studentA.getGradeAverage());
             }
-                else if(teacherSelection.equals(""))
+                else if(teacherSelection.equals("GreenPlatypus8 "))
                 {
 
                 }
