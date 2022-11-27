@@ -44,15 +44,24 @@ public class GradesApplication {
 
 
 
-//            if(teacherSelection.equals("BlueSky45"))
-//            {
-//                System.out.println("Name: " + studentA.getName());
-//                System.out.println("Grades: " + studentA.getGrades());
-//                System.out.println("Grade-point Average: " + studentA.getGradeAverage());
-//            }
-//                else if(teacherSelection.equals("GreenPlatypus8 "))
-//                {
-//
-//                }
+            if(teacherSelection.equals("BlueSky45"))
+            {
+                System.out.println("Name: " + studentA.getName());
+                System.out.println("Grades: " + studentA.getGrades());
+                System.out.println("Grade-point Average: " + studentA.getGradeAverage());
+            }
+                else if(teacherSelection.equals("GreenPlatypus8 "))
+                {
+                    System.out.println("Name: " + studentB.getName());
+                    System.out.println("Grades: " + studentB.getGrades());
+                    System.out.println("Grade-point Average: " + studentB.getGradeAverage());
+                    }
+                    else if(teacherSelection.equals("VeggieTales9"))
+                        {
+                            System.out.println("Name: " + studentC.getName());
+                            System.out.println("Grades: " + studentC.getGrades());
+                            System.out.println("Grade-point Average: " + studentC.getGradeAverage());
+
+                            }
     }
 }
