@@ -18,14 +18,25 @@ public class Input{
     }
 
     int getInt(int min, int max) {
-        System.out.println("Please enter a integer between 50 - 100");
-        int userInput = Integer.parseInt(sc.nextLine());
-        min = 50;
-        max = 100;
-         while(userInput > 100 & userInput < 50){
-             System.out.println("Incorrect. Please try again. Enter a number between 50 - 100");
-         }
-          return userInput;
+        System.out.println("Pick a number between 50 and 100");
+        int catchOutput = sc.nextInt();
+
+       if(catchOutput > 50 && catchOutput < 100)
+       {
+           System.out.println(catchOutput);
+       }
+        else if(catchOutput < 50 && catchOutput > 100){
+           System.out.println("Please try again. Enter a number between 50 and 100");
+           int catchInput2 = sc.nextInt();
+
+       }
+        {
+
+       }
+
+        }
+
+
     }
 
 }
