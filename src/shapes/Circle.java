@@ -1,10 +1,16 @@
 package shapes;
+import util.Input;
 
 public class Circle {
     private double radius;
 
-    public Circle(double radius){  // Setter/ Constructor
+    public Circle(double radius)
+    {  // Setter/ Constructor
         this.radius = radius;
+    }
+    public Circle()
+    {
+
     }
 
     public double getArea(double radius){
