@@ -5,8 +5,9 @@ public class ServerGenerator {
     String[] noun = {"Hamburger", "Planet", "Animal", "Piano", "Apple", "Parrot", "Pencil", "Hydrogen", "Raincoat", "Beach" };
 
 
-//    public String[] mixMatch(String[] adjectives, String[] noun){
-//
+//    public String[] mixMatch(){
+//        System.out.println("Here is your server name: ");
+//        double newName1 = Math.random()* noun.length;
 //    }
 
 

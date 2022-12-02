@@ -5,9 +5,14 @@ public class ArraysExercises {
 
     public Person[] peopleArray;
 
-//    public static int addPerson(Person[] peopleArray){
-//        return ;
-//    }
+    public static Person[] addPerson(Person[] peopleArray, Person addMe){
+        Person[] anotherArr = new Person[peopleArray.length + 1];
+            for(int i = 0; i < peopleArray.length; i++){
+                anotherArr[i] = peopleArray[i];
+            }
+            anotherArr[anotherArr.length - 1] = addMe;
+        return anotherArr;
+    }
 
 
 
