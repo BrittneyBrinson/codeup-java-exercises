@@ -1,16 +1,21 @@
+import java.util.Random;
 public class ServerGenerator {
 
-    String[] adjectives ={"Average", "Awful", "Bewildered", "Average","Bored", "Brainy", "Calm", "Busy","Breakable", "Charming" };
+   public String[] adjectives ={"average", "awful", "bewildered", "average","bubbly", "brainy", "balm", "busy","breakable", "charming" };
 
-    String[] noun = {"Hamburger", "Planet", "Animal", "Piano", "Apple", "Parrot", "Pencil", "Hydrogen", "Raincoat", "Beach" };
-
-
-//    public String[] mixMatch(){
-//        System.out.println("Here is your server name: ");
-//        double newName1 = Math.random()* noun.length;
-//    }
+    public String[] noun = {"hamburger", "planet", "animal", "piano", "apple", "parrot", "pencil", "hydrogen", "raincoat", "beach" };
 
 
+    public String mixMatch(){
+        System.out.println("Here is your server name: ");
+       return noun[new Random().nextInt(noun.length)] + "-" + adjectives[new Random().nextInt(adjectives.length)];
+    }
+
+    public static void main(String[] arguments){
+        var person1 = new ServerGenerator();
+
+        System.out.println(person1.mixMatch());
+    }
 
 
 
