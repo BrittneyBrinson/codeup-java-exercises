@@ -21,15 +21,16 @@ public class MoviesApplication {
         while (true) {
             if (finalInput == 1) {
                 for (int i = 0; i < MoviesArray.findAll().length; i++) {
-                    System.out.println(MoviesArray.findAll()[i].Movie());  //I called the MoviesArray class and with dot notation I accessed its STATIC method.
+                    System.out.println(MoviesArray.findAll()[i].Movie() + "--" + MoviesArray.findAll()[i].getCategory());  //I called the MoviesArray class and with dot notation I accessed its STATIC method.
                         }
+                break;
                 }
-                else if(finalInput == 2) {
-                    for (int i = 0; i < MoviesArray.findAll().length; i++) {
-                        System.out.println(MoviesArray.findAll()[i].getCategory());
-                    }
-                    break;
-                }
+//                else if(finalInput == 2) {
+//                    for (int i = 0; i < MoviesArray.findAll().length; i++) {
+//                        System.out.println(MoviesArray.findAll()[i].getCategory());
+//                    }
+//                    break;
+//                }
             }
 
 
