@@ -23,17 +23,12 @@ public class ArraysExercises {
         System.out.println(Arrays.toString(numbers));  // Arrays.toString is necessary to see numbers. Otherwise, you will see object location(not the actual obj)
 
             Person bravo = new Person("Lilly");
-
-                Person charlie = new Person("Hyde");
-
-                    Person delta = new Person("Lexie");
-
-                        Person[] threePeople = {bravo,charlie,delta};
-
-                            for(Person people : threePeople){
-
-                                System.out.println(people.getName());
-                            }
+            Person charlie = new Person("Hyde");
+            Person delta = new Person("Lexie");
+            Person[] threePeople = {bravo,charlie,delta};
+                for(Person people : threePeople){
+                    System.out.println(people.getName());
+                }
 
 
 
