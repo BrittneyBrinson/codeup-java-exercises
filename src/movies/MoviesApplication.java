@@ -14,7 +14,7 @@ public class MoviesApplication {
                 "\n Enter option 2:view movies in the animated category!" +
                 "\n Enter option 3:view movies in the drama category!" +
                 "\n Enter option 4:view movies in the horror category!" +
-                "\n Enter option 5:view movies in the sci-fi category!");
+                "\n Enter option 5:view movies in the scifi category!");
         Input userInput = new Input();
         var scanner = new Scanner(System.in);
         int finalInput = scanner.nextInt();
@@ -26,13 +26,12 @@ public class MoviesApplication {
                 break;
                 }
 //                else if(finalInput == 2) {
-//                    for (int i = 0; i < MoviesArray.findAll().length; i++) {
-//                        System.out.println(MoviesArray.findAll()[i].getCategory());
-//                    }
+//                   String animatedCategory = "animated";
 //                    break;
-//                }
-            }
-
-
+          }
         }
+
+
     }
+
+

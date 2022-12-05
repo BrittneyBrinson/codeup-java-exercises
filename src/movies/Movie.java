@@ -20,7 +20,15 @@ public class Movie {
         return name;
     }
 
+    public String getMovieName(){
+        return name;
+    }
+
     public String getCategory(){
+        return this.category;
+    }
+
+    public String getCategory(String whatCat){
         return this.category;
     }
 }
