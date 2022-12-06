@@ -1,26 +1,19 @@
 package shapes;
 
 // Extends keywords makes the SQUARE class a SUBCLASS of the Rectangle class. Making Rectangles a SUPERCLASS
- class Square extends Quadrilateral{
+ class Square extends Rectangle{
 
-  public Square(){
-   System.out.println("New shape made");
-  }
-  public void setLength(int length){
-   this.length = length;
-  }
+  public Square(int side){
+     super(side);
 
-  public void setWidth(int width){
-   this.width = width;
   }
-
-  public double getPerimeter(){
-   return 0;
+  public int getArea(int side){
+      return side ^ 2;
+  }
+  public int getPerimeter(int side){
+      return 4 * side;
   }
 
-  public double getArea(){
-   return 0;
-  }
 
 
 
