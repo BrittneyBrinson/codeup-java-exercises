@@ -23,11 +23,15 @@ public class Input{
             while(true)
             {
                 System.out.println("Please guess a number between the hidden min and max.");
-                    int catchOutput = sc.nextInt();
-                        if(catchOutput < max & catchOutput > min)
-                    {
-                        break;
+                    String catchOutput = sc.toString();
+                    try {
+                        if (Integer.valueOf(catchOutput) < max & Integer.valueOf(catchOutput) > min) {
+                            break;
+                        }
+                    }catch(Exception e){
+                        System.out.println("Type conversion error");
                     }
+                    break;
             }
             return 0;
         }
@@ -42,9 +46,10 @@ public class Input{
     double getDouble(double min , double max)
     {
         while(true) {
+
             System.out.println("Guess a decimal between two hidden values!");
-            double grabInput = sc.nextDouble();
-            if (grabInput < max & grabInput > min) {
+            String grabInput = sc.toString();
+            if (Double.valueOf(grabInput) < max & Double.valueOf(grabInput) > min) {
                 break;
             }
         }
