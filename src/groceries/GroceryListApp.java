@@ -28,7 +28,7 @@ public class GroceryListApp {
                     System.out.println("Perfect! Are you done adding items? if yes, then the list will be finalized.");
                     String finalChoice = scanner.next();
                         if(finalChoice.equalsIgnoreCase("yes")){
-                            System.out.println(fruitList.toString());
+                            System.out.println(fruitList);
                         }
                         else{continue;}
                 } else {
