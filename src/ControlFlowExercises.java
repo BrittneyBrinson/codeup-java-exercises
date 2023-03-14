@@ -18,6 +18,8 @@ public class ControlFlowExercises {
 //                System.out.println((i * 2) * (i *= 2));
 //            }while( i <= 1000);
 
+
+        
 //            for(int i = 0; i <= 100; i++){
 
 //                if(i % 3 == 0 & i % 5 == 0){
