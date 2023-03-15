@@ -5,3 +5,6 @@ public class IkmTest {
         System.out.println(Stream.of("green", "yellow", "blue").max((s1, s2) -> s1.compareTo(s2)).filter(s -> s.endsWith("n")).orElse("yellow"));
     }
 }
+
+
+//TekSystems test for possible placement
